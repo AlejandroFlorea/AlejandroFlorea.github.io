@@ -30,19 +30,16 @@ body{
     width: 47%;
     float: left;
     height: auto;
-    border-radius: 15px;
     background-image: calc("../Img/bocadillo.png");
     margin: 30px 1% 30px 2%;
-    padding:1%;
+    padding-left: 35%;
 }
 .columna2{
     width: 47%;
     float: right;
     height: auto;
     border-radius: 0 4px 4px 0;
-    
     margin: 30px 2% 30px 1%;
-    padding:1%;
 }
 .fila{
 }
