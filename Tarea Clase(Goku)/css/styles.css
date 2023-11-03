@@ -1,0 +1,57 @@
+/*Autor: Alejandro Florea*/
+body{
+    margin: 0;
+    background-image: url("../Img/fondo.jpg");
+    background-repeat: repeat;
+}
+*{
+    box-sizing: border-box;
+}
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    background-color: #FF4500;
+    overflow: hidden;
+    width: 100%;
+}
+.datos-menu{
+    float: left;
+}
+.datos-menu a{
+    text-decoration: none;
+    padding: 20px 10px;
+    display: block;
+}
+.enlacesmenu:hover{
+    background-color: #FF7F50;
+}
+.columna{
+    width: 47%;
+    float: left;
+    height: auto;
+    border-radius: 4px 0 0 4px;
+    border-right: 2px solid black;
+    background-color: aquamarine;
+    margin: 30px 1% 30px 2%;
+    padding:1%;
+}
+.columna2{
+    width: 47%;
+    float: right;
+    height: auto;
+    border-radius: 0 4px 4px 0;
+    
+    margin: 30px 2% 30px 1%;
+    padding:1%;
+}
+.fila{
+}
+h1{
+    font-size: 600%;
+}
+@media only screen and (max-width: 800px) {
+    .goku2{
+        image-resolution: 300px 250px;
+    }
+}
