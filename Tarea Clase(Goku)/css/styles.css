@@ -30,9 +30,8 @@ body{
     width: 47%;
     float: left;
     height: auto;
-    border-radius: 4px 0 0 4px;
-    border-right: 2px solid black;
-    background-color: aquamarine;
+    border-radius: 15px;
+    background-image: calc("../Img/bocadillo.png");
     margin: 30px 1% 30px 2%;
     padding:1%;
 }
@@ -50,7 +49,7 @@ body{
 h1{
     font-size: 600%;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-height: 800px) {
     .goku2{
         image-resolution: 300px 250px;
     }
