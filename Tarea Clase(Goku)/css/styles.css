@@ -22,6 +22,12 @@ body{
     text-decoration: none;
     padding: 20px 10px;
     display: block;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+}
+.esfera{
+    position:absolute
+    margin-bottom: 0;
 }
 .enlacesmenu:hover{
     background-color: #FF7F50;
