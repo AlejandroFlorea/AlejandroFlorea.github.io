@@ -58,11 +58,14 @@ body{
     padding: 0 5%;
 }
 .fila2{
-    position: -ms-page;
-    background-color: black;
+    margin-top: 20%;
+    background-color: rgb(65, 4, 4);
 }
 .columna h1{
     text-align: center;
+}
+.fila p{
+    margin-bottom: 0;
 }
 
 
