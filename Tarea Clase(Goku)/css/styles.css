@@ -33,7 +33,7 @@ body{
     background-color: #FF7F50;
 }
 .columna{
-    width: 47%;
+    width: 77%;
     float: left;
     height: 200px;
     background-image: url("../Img/bocadillo.png");
@@ -41,9 +41,10 @@ body{
     margin: 30px 2% 30px 1%;
     background-repeat: no-repeat;
     display: grid;
+    background-size:cover;
 }
 .columna2{
-    width: 47%;
+    width: 17%;
     float: right;
     height: 200px;
     border-radius: 0 4px 4px 0;
@@ -51,8 +52,13 @@ body{
     display: grid;
     justify-content: center;
     align-items: center;
+    
 }
 .fila{
+    padding: 0 5%;
+}
+.columna h1{
+    text-align: center;
 }
 
 
