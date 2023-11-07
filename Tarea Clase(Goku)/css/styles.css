@@ -35,10 +35,12 @@ body{
 .columna{
     width: 47%;
     float: left;
-    height: auto;
-    background-image: calc("../Img/bocadillo.png");
+    height: 400px;
+    background-image: url("../Img/bocadillo.png");
     margin: 30px 1% 30px 2%;
-    padding-left: 35%;
+    margin-left: 20%;
+    background-repeat: no-repeat;
+    margin-right: 0;
 }
 .columna2{
     width: 47%;
@@ -46,12 +48,11 @@ body{
     height: auto;
     border-radius: 0 4px 4px 0;
     margin: 30px 2% 30px 1%;
+    margin-top: 0%;
 }
 .fila{
 }
-h1{
-    font-size: 600%;
-}
+
 @media only screen and (max-height: 800px) {
     .goku2{
         image-resolution: 300px 250px;
