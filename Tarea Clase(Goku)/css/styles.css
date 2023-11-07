@@ -58,6 +58,7 @@ body{
     padding: 0 5%;
 }
 .fila2{
+    position: -ms-page;
     background-color: black;
 }
 .columna h1{
