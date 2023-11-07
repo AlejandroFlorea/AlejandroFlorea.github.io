@@ -57,6 +57,9 @@ body{
 .fila{
     padding: 0 5%;
 }
+.fila2{
+    background-color: black;
+}
 .columna h1{
     text-align: center;
 }
