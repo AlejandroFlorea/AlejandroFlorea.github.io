@@ -24,15 +24,17 @@ body{
     display: block;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 0;
+    font-size: 17px;
+    color: aliceblue;
+    font-weight: bold;
 }
 .esfera{
-    position:absolute
     margin-bottom: 0;
 }
 .enlacesmenu:hover{
     background-color: #FF7F50;
 }
-.columna{
+.c-bocadillo{
     width: 77%;
     float: left;
     height: 200px;
@@ -43,11 +45,10 @@ body{
     display: grid;
     background-size:cover;
 }
-.columna2{
+.c-goku{
     width: 17%;
     float: right;
     height: 200px;
-    border-radius: 0 4px 4px 0;
     margin: 30px 2% 30px 1%;
     display: grid;
     justify-content: center;
@@ -56,16 +57,29 @@ body{
 }
 .fila{
     padding: 0 5%;
+    display: block;
 }
 .fila2{
-    margin-top: 20%;
+    padding: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
     background-color: #b95511;
+    display: block;
+    border-radius: 25px;
+
 }
-.columna h1{
+.c-bocadillo h1{
     text-align: center;
 }
-.parrafo{
-    margin-bottom: 0;
+.fila:after { 
+    content: ""; 
+    display: table; 
+    clear: both; 
+} 
+.fila2:after { 
+    content: ""; 
+    display: table; 
+    clear: both; 
 }
 
 
