@@ -81,6 +81,17 @@ body{
     display: table; 
     clear: both; 
 }
+.informacion{
+    padding: 20px;
+    margin-left: 50%;
+    margin-right: 3%;
+    background-color: #b95511;
+    display: block;
+    border-radius: 25px;
+}
+.tabla-tran{
+    margin-top: 2%;
+}
 
 
 @media only screen and (max-height: 800px) {
