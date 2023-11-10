@@ -91,6 +91,17 @@ body{
 }
 .tabla-tran{
     margin-top: 2%;
+    margin-left: 3%;
+}
+footer{
+    background-color: #FF7F50;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+}
+.contenido{
+    position: relative;
+    min-height: 100vh;
 }
 
 
