@@ -99,8 +99,11 @@ footer{
     position: relative;
     min-height: 100vh;
 }
-.c-goku:hover{
-    
+.inicio2{
+    background-color: #b95511;
+    margin: 20px 3% 20px 3%;
+    border-radius: 20px;
+    padding: 15px;
 }
 
 
