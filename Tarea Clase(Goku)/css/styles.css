@@ -86,7 +86,6 @@ body{
     margin-left: 50%;
     margin-right: 3%;
     background-color: #b95511;
-    display: block;
     border-radius: 25px;
 }
 .tabla-tran{
@@ -98,6 +97,7 @@ footer{
     text-align: center;
     bottom: 0;
     position: absolute;
+    width: 100%;
 }
 .contenido{
     position: relative;
