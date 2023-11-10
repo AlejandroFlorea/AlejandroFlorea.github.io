@@ -57,15 +57,9 @@ body{
 }
 .fila{
     padding: 0 5%;
-    display: block;
 }
 .fila2{
-    padding: 20px;
-    margin-left: 3%;
-    margin-right: 3%;
-    background-color: #b95511;
-    display: block;
-    border-radius: 25px;
+    margin: 20px 3% 20px 3%;
 
 }
 .c-bocadillo h1{
@@ -83,14 +77,16 @@ body{
 }
 .informacion{
     padding: 20px;
-    margin-left: 50%;
-    margin-right: 3%;
-    background-color: #b95511;
+    margin-left: 1%;
+    background-color: #b91111;
     border-radius: 25px;
+    width: 49%;
+    float: left;
 }
-.tabla-tran{
-    margin-top: 2%;
-    margin-left: 3%;
+.tabla-izq{
+    margin-right: 1%;
+    width: 49%;
+    float: left;
 }
 footer{
     background-color: #FF7F50;
@@ -102,6 +98,9 @@ footer{
 .contenido{
     position: relative;
     min-height: 100vh;
+}
+.c-goku:hover{
+    
 }
 
 
