@@ -1,13 +1,15 @@
 /*Autor: Alejandro Florea*/
-body{
+body {
     margin: 0;
     background-image: url("../Img/fondo.jpg");
     background-repeat: repeat;
 }
-*{
+
+* {
     box-sizing: border-box;
 }
-.menu{
+
+.menu {
     list-style-type: none;
     margin: 0;
     padding: 0px;
@@ -15,10 +17,12 @@ body{
     overflow: hidden;
     width: 100%;
 }
-.datos-menu{
+
+.datos-menu {
     float: left;
 }
-.datos-menu a{
+
+.datos-menu a {
     text-decoration: none;
     padding: 20px 20px;
     display: block;
@@ -28,13 +32,16 @@ body{
     color: aliceblue;
     font-weight: bold;
 }
-.esfera{
+
+.esfera {
     margin-bottom: 0;
 }
-.enlacesmenu:hover{
+
+.enlacesmenu:hover {
     background-color: #FF7F50;
 }
-.c-bocadillo{
+
+.c-bocadillo {
     width: 77%;
     float: left;
     height: 200px;
@@ -43,9 +50,10 @@ body{
     margin: 30px 2% 30px 1%;
     background-repeat: no-repeat;
     display: grid;
-    background-size:cover;
+    background-size: cover;
 }
-.c-goku{
+
+.c-goku {
     width: 17%;
     float: right;
     height: 200px;
@@ -53,29 +61,35 @@ body{
     display: grid;
     justify-content: center;
     align-items: center;
-    
+
 }
-.fila{
+
+.fila {
     padding: 0 5%;
 }
-.fila2{
+
+.fila2 {
     margin: 20px 3% 20px 3%;
 
 }
-.c-bocadillo h1{
+
+.c-bocadillo h1 {
     text-align: center;
 }
-.fila:after { 
-    content: ""; 
-    display: table; 
-    clear: both; 
-} 
-.fila2:after { 
-    content: ""; 
-    display: table; 
-    clear: both; 
+
+.fila:after {
+    content: "";
+    display: table;
+    clear: both;
 }
-.informacion{
+
+.fila2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.informacion {
     padding: 20px;
     margin-left: 1%;
     background-color: #b95511;
@@ -83,23 +97,27 @@ body{
     width: 49%;
     float: left;
 }
-.tabla-izq{
+
+.tabla-izq {
     margin-right: 1%;
     width: 49%;
     float: left;
 }
-footer{
+
+footer {
     background-color: #FF7F50;
     text-align: center;
     bottom: 0;
     position: absolute;
     width: 100%;
 }
-.contenido{
+
+.contenido {
     position: relative;
     min-height: 100vh;
 }
-.inicio2{
+
+.inicio2 {
     background-color: #b95511;
     margin: 20px 3% 20px 3%;
     border-radius: 20px;
@@ -108,7 +126,7 @@ footer{
 
 
 @media only screen and (max-height: 800px) {
-    .goku2{
+    .goku2 {
         image-resolution: 300px 250px;
     }
 }
