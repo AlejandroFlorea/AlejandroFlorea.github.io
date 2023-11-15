@@ -66,16 +66,19 @@ body {
 
 .fila2 {
     margin: 20px 3% 20px 3%;
+    padding-bottom: 46px;
+
 }
 
 .fila2 h2 {
-    font-size:xx-large;
+    font-size: xx-large;
 }
 
 h1 {
     font-size: 45px;
 }
-p{
+
+p {
     font-size: 21px;
 }
 
@@ -104,19 +107,32 @@ p{
     float: left;
 }
 
-.tabla-izq {
+.columna-izq {
     margin-right: 1%;
     width: 49%;
     float: left;
 }
-
+.tabla-tran{
+    background-color: #b95511;
+    width: 100%; 
+    text-align: center;
+    border-spacing: 0px;
+}
+.tabla-tran th, .tabla-tran td{
+    border:1.5px solid black;
+}
+.tabla-tran th{
+    font-size: 27px;
+}
+.tabla-tran td{
+    font-size: 20px;
+}
 footer {
     background-color: #FF7F50;
     text-align: center;
     bottom: 0;
     width: 100%;
-    position:fixed;
-    display: inline-block;
+    position:absolute;
 }
 
 .contenido {
@@ -154,7 +170,8 @@ footer {
     text-decoration: none;
     font-size: 21px;
 }
-.columna1 li{
+
+.columna1 li {
     padding: 10px 0;
 }
 
