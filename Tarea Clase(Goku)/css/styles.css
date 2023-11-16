@@ -176,8 +176,8 @@ footer {
 }
 
 
-@media only screen and (max-height: 800px) {
-    .goku2 {
-        image-resolution: 300px 250px;
-    }
+@media only screen and (max-width: 1400px) {
+h1{
+    font-size: 35px;
+}
 }
