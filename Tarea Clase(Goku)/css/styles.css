@@ -47,6 +47,7 @@ body {
     background-repeat: no-repeat;
     display: grid;
     background-size: cover;
+    padding-right: 3%;
 }
 
 .c-goku {
@@ -61,13 +62,13 @@ body {
 }
 
 .fila {
-    padding: 0 5%;
+    padding: 20px 5% 0 5%;
+
 }
 
 .fila2 {
-    margin: 20px 3% 20px 3%;
-    padding-bottom: 46px;
-
+    margin: 20px 3% 0px 3%;
+    
 }
 
 .fila2 h2 {
@@ -138,6 +139,7 @@ footer {
 .contenido {
     position: relative;
     min-height: 100vh;
+    padding-bottom: 96px;
 }
 
 .inicio2 {
