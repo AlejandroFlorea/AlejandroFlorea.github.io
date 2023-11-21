@@ -45,7 +45,7 @@ body {
     background-position: right;
     margin: 30px 2% 30px 1%;
     background-repeat: no-repeat;
-    display: grid;
+    display: table;
     background-size: cover;
     padding-right: 5%;
 }
@@ -85,6 +85,8 @@ p {
 
 .c-bocadillo h1 {
     text-align: center;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .fila:after {
@@ -201,5 +203,8 @@ h1{
 .columna-izq{
     width: 100%;
     margin-left: 0%;
+}
+.c-bocadillo{
+    padding-left: 4%;
 }
 }
