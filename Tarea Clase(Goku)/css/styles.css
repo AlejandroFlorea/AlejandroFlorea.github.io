@@ -115,6 +115,11 @@ p {
     width: 49%;
     float: left;
 }
+.columnatriple {
+    margin: 0 0.65%;
+    width: 32%;
+    float: left;
+}
 .tabla-tran{
     background-color: #b95511;
     width: 100%; 
