@@ -184,6 +184,12 @@ footer {
     padding: 10px 0;
 }
 
+.formulario{
+    text-align: center;
+    background-color: #b95511;
+    margin: 100px 20%;
+    border-radius: 20px;
+}
 
 @media only screen and (max-width: 1400px) {
 h1{
