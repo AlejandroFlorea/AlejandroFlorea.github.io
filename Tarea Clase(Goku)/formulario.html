@@ -31,15 +31,23 @@
           <input type="radio" name="hm" value="m" required> Mujer
           <input type="radio" name="hm" value="pd" required> Prefiero no decirlo
         </p>
-        <p>
-          <input type="checkbox" id="politica" required>
-          <label for="politica">Acepto la <a href="https://policies.google.com/privacy?hl=es">Politica de
-              privacidad</a></label>
-        </p>
-        <p>
-          <input type="submit" value="Probar">
-          <input type="reset" value="Borrar">
-        </p>
-      </form>
+        <form action="cosas.html" method="get">
+          Indique cuanto le gusta Goku(No me gusta No esta mal Me encanta)
+          <input type="range" name="rango" min="1" max="3" list="lista-rango">
+          <datalist id="lista-rango" required>
+            <option value="1" label="No me gusta">
+            <option value="2" label="No esta mal">
+            <option value="3" label="Me encanta">
+          </datalist>
+          <p>
+            <input type="checkbox" id="politica" required>
+            <label for="politica">Acepto la <a href="https://policies.google.com/privacy?hl=es">Politica de
+                privacidad</a></label>
+          </p>
+          <p>
+            <input type="submit" value="Probar">
+            <input type="reset" value="Borrar">
+          </p>
+        </form>
     </header>
 </body>
