@@ -17,12 +17,29 @@
               src="Img/esfera.png" alt="inicio" height="39px" width="auto"></a></li>
         <li class="datos-menu"><a class="enlacesmenu" href="datos.html">Datos impotantes</a></li>
         <li class="datos-menu"><a class="enlacesmenu" href="historia.html">Su historia</a></li>
-        <li class="datos-menu"><a class="enlacesmenu"
-            href="transformaciones.html">Transformaciones</a>
+        <li class="datos-menu"><a class="enlacesmenu" href="transformaciones.html">Transformaciones</a>
         </li>
         <li class="datos-menu"><a class="enlacesmenu" href="comunidad.html">Comunidad</a></li>
         <li class="datos-menu"><a class="enlacesmenu" href="formulario.html">Formulario</a></li>
-        
       </ul>
+      <form action="probar(desp).html" method="get">
+        <p>Nombre: <input type="text" name="nombre" size="20" required></p>
+        <p>Apellidos: <input type="text" name="apellidos" size="30" required></p>
+        <p>Fecha de nacimiento: <input type="date" name="fecha"></p>
+        <p>Sexo:
+          <input type="radio" name="hm" value="h" required> Hombre
+          <input type="radio" name="hm" value="m" required> Mujer
+          <input type="radio" name="hm" value="pd" required> Prefiero no decirlo
+        </p>
+        <p>
+          <input type="checkbox" id="politica" required>
+          <label for="politica">Acepto la <a href="https://policies.google.com/privacy?hl=es">Politica de
+              privacidad</a></label>
+        </p>
+        <p>
+          <input type="submit" value="Probar">
+          <input type="reset" value="Borrar">
+        </p>
+      </form>
     </header>
 </body>
