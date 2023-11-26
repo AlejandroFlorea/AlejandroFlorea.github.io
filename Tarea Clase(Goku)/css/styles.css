@@ -68,7 +68,7 @@ body {
 
 .fila2 {
     margin: 20px 3% 0px 3%;
-    
+
 }
 
 .fila2 h2 {
@@ -115,32 +115,39 @@ p {
     width: 49%;
     float: left;
 }
+
 .columnatriple {
     margin: 0 0.65%;
     width: 32%;
     float: left;
 }
-.tabla-tran{
+
+.tabla-tran {
     background-color: #b95511;
-    width: 100%; 
+    width: 100%;
     text-align: center;
     border-spacing: 0px;
 }
-.tabla-tran th, .tabla-tran td{
-    border:1.5px solid black;
+
+.tabla-tran th,
+.tabla-tran td {
+    border: 1.5px solid black;
 }
-.tabla-tran th{
+
+.tabla-tran th {
     font-size: 27px;
 }
-.tabla-tran td{
+
+.tabla-tran td {
     font-size: 20px;
 }
+
 footer {
     background-color: #FF7F50;
     text-align: center;
     bottom: 0;
     width: 100%;
-    position:absolute;
+    position: absolute;
 }
 
 .contenido {
@@ -184,38 +191,53 @@ footer {
     padding: 10px 0;
 }
 
-.formulario{
+.formulario {
     text-align: center;
     background-color: #b95511;
     margin: 100px 20%;
     border-radius: 20px;
 }
 
-@media only screen and (max-width: 1400px) {
-h1{
-    font-size: 35px;
+.TablaCV {
+    background-color: #629694;
+    border: black 3px solid;
+    border-right: none;
+    border-collapse: collapse;
+    border-top: none;
+    border-bottom: none;
+    margin-left: 16%;
 }
-}
-@media only screen and (max-width: 850px){
-.columna1{
-    width: 100%;
-}
-.columna2{
-    width: 100%;
-    margin-top: 15px;
-}
-}
-@media only screen and (max-width: 650px){
-.informacion{
-    width: 100%;
-    margin-left: 0%;
-    margin-top: 4%;
-}
-.columna-izq{
-    width: 100%;
-    margin-left: 0%;
-}
-.c-bocadillo{
-    padding-left: 4%;
-}
-}
+
+    @media only screen and (max-width: 1400px) {
+        h1 {
+            font-size: 35px;
+        }
+    }
+
+    @media only screen and (max-width: 850px) {
+        .columna1 {
+            width: 100%;
+        }
+
+        .columna2 {
+            width: 100%;
+            margin-top: 15px;
+        }
+    }
+
+    @media only screen and (max-width: 650px) {
+        .informacion {
+            width: 100%;
+            margin-left: 0%;
+            margin-top: 4%;
+        }
+
+        .columna-izq {
+            width: 100%;
+            margin-left: 0%;
+        }
+
+        .c-bocadillo {
+            padding-left: 4%;
+        }
+    }
