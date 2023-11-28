@@ -25,16 +25,23 @@
       </ul>
     </header>
     <div class="formulario">
-      <form action="probar(desp).html" method="get">
+      <form action="gracias.html" method="get">
         <p>Nombre: <input type="text" name="nombre" size="20" required></p>
         <p>Apellidos: <input type="text" name="apellidos" size="30" required></p>
+        <p>Correo Electronico <input type="text" name="apellidos" size="30" required></p>
         <p>Fecha de nacimiento: <input type="date" name="fecha"></p>
+        <p>¿Te ha gustado la pagina web?</p>
+        <select name="menu" required>
+          <option>...</option>
+          <option>Si</option>
+          <option>No</option>
+        </select>
         <p>Sexo:
           <input type="radio" name="hm" value="h" required> Hombre
           <input type="radio" name="hm" value="m" required> Mujer
           <input type="radio" name="hm" value="pd" required> Prefiero no decirlo
         </p>
-        <form action="cosas.html" method="get">
+        <form action="gracias.html" method="get">
           Indique cuanto le gusta Goku(No me gusta No esta mal Me encanta)
           <input type="range" name="rango" min="1" max="3" list="lista-rango">
           <datalist id="lista-rango" required>
@@ -42,6 +49,7 @@
             <option value="2" label="No esta mal">
             <option value="3" label="Me encanta">
           </datalist>
+          <textarea style="margin-top: 20px;" name="texto" rows="3" cols="55" placeholder="Indica algun atributo que sepas sobre Goku"></textarea>
           <p>
             <input type="checkbox" id="politica" required>
             <label for="politica">Acepto la <a href="https://policies.google.com/privacy?hl=es">Politica de
