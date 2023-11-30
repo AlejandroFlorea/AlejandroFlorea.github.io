@@ -163,6 +163,10 @@ footer {
     padding: 15px;
 }
 
+.inicio2 td{
+    padding: 11px 2%;
+}
+
 .columna1 {
     float: left;
     width: 24%;
@@ -197,15 +201,9 @@ footer {
     margin: 100px 20%;
     border-radius: 20px;
 }
-
-.TablaCV {
-    background-color: #629694;
-    border: black 3px solid;
-    border-right: none;
-    border-collapse: collapse;
-    border-top: none;
-    border-bottom: none;
-    margin-left: 16%;
+.Subtitulo{
+    font-size: 250%;
+    margin-left: 22%;
 }
 
     @media only screen and (max-width: 1400px) {
