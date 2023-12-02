@@ -38,12 +38,12 @@ body {
 }
 
 .c-bocadillo {
-    width: 77%;
+    width: 79%;
     float: left;
     height: 200px;
     background-image: url("../Img/bocadillo.png");
     background-position: right;
-    margin: 30px 2% 30px 1%;
+    margin: 30px 0 30px 1%;
     background-repeat: no-repeat;
     display: table;
     background-size: cover;
