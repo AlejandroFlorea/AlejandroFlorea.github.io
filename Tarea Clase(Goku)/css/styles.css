@@ -207,6 +207,10 @@ footer {
     margin-left: 22%;
 }
 
+.form{
+    font-size: 1em;
+}
+
     @media only screen and (max-width: 1400px) {
         h1 {
             font-size: 35px;
