@@ -206,6 +206,9 @@ footer {
     font-size: 250%;
     margin-left: 22%;
 }
+.video{
+    justify-content: center;
+}
 
 .form{
     font-size: 1em;
