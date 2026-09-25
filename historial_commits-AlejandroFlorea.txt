@@ -1,3 +1,15 @@
+commit dc02a80e0a57099892e2b3b45ef3b36e2f96c247
+Author: AlejandroFlorea <alejandro.florea1@educa.madrid.org>
+Date:   Fri Sep 25 19:39:22 2026 +0200
+
+    modificado el logo para acceder al index
+
+commit ee12e7e71d8db83f0476d566fe6263e702de2a49
+Author: AlejandroFlorea <alejandro.florea1@educa.madrid.org>
+Date:   Fri Sep 25 19:38:54 2026 +0200
+
+    modificado el logo para el index
+
 commit 65aa1b7a0ed2c004cb37212d6a15da8faa68e1aa
 Author: AlejandroFlorea <alejandro.florea1@educa.madrid.org>
 Date:   Thu Sep 24 17:19:30 2026 +0200
