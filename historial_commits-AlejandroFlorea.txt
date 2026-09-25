@@ -1,0 +1,11 @@
+commit 65aa1b7a0ed2c004cb37212d6a15da8faa68e1aa
+Author: AlejandroFlorea <alejandro.florea1@educa.madrid.org>
+Date:   Thu Sep 24 17:19:30 2026 +0200
+
+    Modificado el index para mayor amplitud
+
+commit 318bc9a7cfdb734e75465a39673fed15b33eeceb
+Author: AlejandroFlorea <alejandro.florea1@educa.madrid.org>
+Date:   Thu Sep 24 17:15:02 2026 +0200
+
+    Primer commit
