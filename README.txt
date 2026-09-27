@@ -2,7 +2,7 @@
 
 ¡Bienvenido al repositorio de mi página web personal y portafolio! Esta plataforma está diseñada de forma sencilla e interactiva para mostrar quién soy, mis proyectos destacados y las vías de contacto.
 
-Puedes ver la web en directo aquí: **[alejandroflorea.github.io](https://alejandroflorea.github.io)**
+Puedes ver la web en directo aquí: [alejandroflorea.github.io](https://alejandroflorea.github.io)
 
 ---
 
