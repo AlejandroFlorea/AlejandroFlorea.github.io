@@ -1,3 +1,21 @@
+commit 49962c6c2da534dd75f363a9060adf48730109f8
+Author: AlejandroFlorea <alejandro.florea1@educa.madrid.org>
+Date:   Sun Sep 27 17:50:55 2026 +0200
+
+    Conflicto resuelto
+
+commit 7702d570b310d867cbd79760b4274ca7c947ffc3
+Author: AlejandroFlorea <alejandro.florea1@educa.madrid.org>
+Date:   Fri Sep 25 20:39:50 2026 +0200
+
+    Modificada la pagina para poder encriptarla
+
+commit 3eb1a2afebfd75f5df90d3b146d1656cc568c62c
+Author: AlejandroFlorea <alejandro.florea1@educa.madrid.org>
+Date:   Fri Sep 25 19:41:13 2026 +0200
+
+    historial actualizado
+
 commit dc02a80e0a57099892e2b3b45ef3b36e2f96c247
 Author: AlejandroFlorea <alejandro.florea1@educa.madrid.org>
 Date:   Fri Sep 25 19:39:22 2026 +0200
